@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "181660796886",
+    "firebase_url": "https://waiterstation.firebaseio.com",
+    "project_id": "waiterstation",
+    "storage_bucket": "waiterstation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181660796886:android:e912d752cb4a8947be0677",
+        "android_client_info": {
+          "package_name": "com.example.waiterstation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181660796886-uet8qt1cj9ug2ek8g861v0reofo4d7ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMe8zKPyVl3rD5RGHA7CE4dlszMgub5b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181660796886-uet8qt1cj9ug2ek8g861v0reofo4d7ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

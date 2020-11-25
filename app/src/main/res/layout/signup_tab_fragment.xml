@@ -5,10 +5,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/email_s"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintWidth_percent=".80"
+        android:background="@drawable/edit_text_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,11 +25,12 @@
         android:id="@+id/mobile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
         app:layout_constraintWidth_percent=".8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintTop_toBottomOf="@id/email_s"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias=".5"
         android:hint="Mobile Number"
@@ -38,9 +40,10 @@
         android:paddingBottom="10dp"/>
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
         app:layout_constraintWidth_percent=".8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,19 +51,21 @@
         app:layout_constraintTop_toBottomOf="@id/mobile"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias=".5"
-        android:hint="Email"
+        android:hint="Username"
         android:layout_marginTop="20dp"
         android:paddingStart="20dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"/>
     <EditText
+        android:id="@+id/password_S"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
         app:layout_constraintWidth_percent=".8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password"
+        app:layout_constraintTop_toBottomOf="@id/username"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias=".5"
         android:hint="Password"
@@ -70,11 +75,13 @@
         android:paddingBottom="10dp"/>
 
     <Button
+        android:id="@+id/sign_up"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintWidth_percent=".8"
         app:layout_constraintVertical_bias=".7"
         android:text="Sign up"
+        android:background="@drawable/button_bg"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
