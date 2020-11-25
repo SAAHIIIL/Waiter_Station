@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Waiter Station</string>
+    <string name="waiter_station">Waiter Station</string>
+    <string name="skip">Skip</string>
+    <string name="fresh">Fresh</string>
+    <string name="everything">Everything</string>
+    <string name="everything_you_will_experience_will_be_absolutely_tasty_ad_fresh">Everything you will experience will be absolutely tasty ad fresh</string>
+    <string name="all_you_need_to_do_is_order_you_favourite_food_right_from_your_device">All you need to do is order you favourite food right from your device</string>
+    <string name="all_kinds_of_payment_modes_are_accepted_as_per_your_convenience">All kinds of payment modes are accepted as per your convenience</string>
+</resources>
